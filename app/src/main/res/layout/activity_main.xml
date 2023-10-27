@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpaper"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="202dp"
+        android:background="@drawable/vazio"
+        android:fontFamily="@font/terrariafont"
+        android:onClick="crimson"
+        android:text="@string/txt_crimson"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnC"
+        app:layout_constraintStart_toStartOf="@+id/btnC"
+        app:layout_constraintTop_toBottomOf="@+id/btnC" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCa"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/btnC"
+        app:layout_constraintTop_toTopOf="@+id/btnCa"
+        app:srcCompat="@drawable/crimsonbunny" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="252dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="266dp"
+        android:background="@drawable/vazio"
+        android:fontFamily="@font/terrariafont"
+        android:onClick="corruption"
+        android:text="@string/txt_corrupcao"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="-55dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/title" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="226dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="304dp"
+        android:fontFamily="@font/terrariafont"
+        android:text="Boss CheckList"
+        android:textAlignment="center"
+        android:textColor="#7A7A7A"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="65dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnC"
+        app:layout_constraintEnd_toEndOf="@+id/btnC"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/btnC"
+        app:srcCompat="@drawable/corruptedbunny" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="-200dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/terrariafont"
+        android:text="@string/txt_escolha"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

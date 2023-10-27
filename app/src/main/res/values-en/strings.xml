@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bossCheck</string>
+    <string name="txt_corrupcao">Corruption</string>
+    <string name="txt_crimson">Crimson</string>
+    <string name="txt_escolha">Select the evil biome you\'ve chosen and let\'s get started.</string>
+    <string name="txt_preh">Pre-Hardomode</string>
+    <string name="txt_slime">King Slime</string>
+    <string name="txt_eye">Eye of Cthulhu</string>
+    <string name="txt_mundos">Eater of Worlds</string>
+    <string name="txt_cerebro">Brain of Cthulhu</string>
+    <string name="txt_abelha">Queen Bee</string>
+    <string name="txt_esqueleto">Skeletron</string>
+    <string name="txt_cervo">Deerclops</string>
+    <string name="txt_parede">Wall of Flash</string>
+    <string name="txt_eventos">Events</string>
+    <string name="txt_lua">Blood Moon</string>
+    <string name="txt_goblin">Goblin Army</string>
+    <string name="txt_anciao">Old One\'s Army</string>
+    <string name="txt_tocha">The Torch God</string>
+</resources>

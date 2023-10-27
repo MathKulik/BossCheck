@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">bossCheck</string>
+    <string name="txt_corrupcao">Corrupção</string>
+    <string name="txt_crimson">Carmin</string>
+    <string name="txt_escolha">Selecione qual bioma maléfico você escolheu e vamos iniciar.</string>
+    <string name="txt_preh">Pré-Modo Difícil</string>
+    <string name="txt_slime">Geleia Rei</string>
+    <string name="txt_eye">Olho de Cthulhu</string>
+    <string name="txt_mundos">Devorador de Mundos</string>
+    <string name="txt_cerebro">Cérebro de Cthulhu</string>
+    <string name="txt_abelha">Abelha Rainha</string>
+    <string name="txt_esqueleto">Esqueletron</string>
+    <string name="txt_cervo">Cervoclope</string>
+    <string name="txt_parede">Parede de Carne</string>
+    <string name="txt_eventos">Eventos</string>
+    <string name="txt_lua">Lua de Sangue</string>
+    <string name="txt_goblin">Exército Goblin</string>
+    <string name="txt_anciao">Exército do Ancião</string>
+    <string name="txt_tocha">O Deus da Tocha</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>
