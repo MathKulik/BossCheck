@@ -18,4 +18,14 @@
     <string name="txt_goblin">Goblin Army</string>
     <string name="txt_anciao">Old One\'s Army</string>
     <string name="txt_tocha">The Torch God</string>
+    <string name="txt_geleia">Queen Slime</string>
+    <string name="txt_gemeos">The Twins</string>
+    <string name="txt_alfa">Skeletron Prime</string>
+    <string name="txt_planta">Plantera</string>
+    <string name="txt_luz">Empress of Light</string>
+    <string name="txt_golem">Golem</string>
+    <string name="txt_duque">Duke FIshron</string>
+    <string name="txt_cultista">Lunatic Cultist</string>
+    <string name="txt_lord">Moon Lord</string>
+    <string name="txt_destruidor">The Destroyer</string>
 </resources>

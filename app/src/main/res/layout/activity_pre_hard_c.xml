@@ -9,7 +9,46 @@
 
     tools:context=".preHardC">
 
-<TextView
+    <Button
+        android:id="@+id/btnCa3"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+
+        android:background="@drawable/vazio"
+        android:fontFamily="@font/terrariafont"
+        android:onClick="volta"
+        android:text=" "
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <Button
+        android:id="@+id/btnCa2"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+
+        android:background="@drawable/vazio"
+        android:fontFamily="@font/terrariafont"
+        android:onClick="hard"
+        android:text=" "
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        android:rotationY="-180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/buttonback" />
+
+    <TextView
 android:id="@+id/textView8"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"
@@ -204,15 +243,15 @@ app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
 app:layout_constraintEnd_toEndOf="parent"
 app:layout_constraintStart_toStartOf="parent" />
 
-<ImageView
-android:id="@+id/imageView7"
-android:layout_width="55dp"
-android:layout_height="43dp"
-android:layout_marginEnd="22dp"
-android:layout_marginBottom="24dp"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:srcCompat="@drawable/buttonforward" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonback" />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

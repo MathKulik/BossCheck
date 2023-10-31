@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hardmode">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundcolorido"
+        android:orientation="vertical"
+
+        tools:context=".preHardC"
+        tools:layout_editor_absoluteX="-186dp"
+        tools:layout_editor_absoluteY="173dp">
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_duque"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="248dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_golem"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <Button
+            android:id="@+id/btnCa3"
+            android:layout_width="65dp"
+            android:layout_height="41dp"
+
+            android:background="@drawable/vazio"
+            android:fontFamily="@font/terrariafont"
+            android:onClick="volta"
+            android:text=" "
+            android:textAlignment="viewStart"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="664dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_preh"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="411dp"
+            android:layout_height="82dp"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/title"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_eventos"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="461dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_goblin"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="585dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_lua"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="517dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_anciao"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="254dp"
+            tools:layout_editor_absoluteY="517dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_tocha"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="254dp"
+            tools:layout_editor_absoluteY="585dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="411dp"
+            android:layout_height="99dp"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/title"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="122dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_geleia"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_gemeos"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_destruidor"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="243dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_luz"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_cultista"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_lord"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_alfa"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_planta"
+            android:textColor="#FFFFFF"
+            app:buttonIconTint="#FFFFFF"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="378dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/terrariafont"
+            android:text="@string/txt_preh"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="56dp"
+            android:layout_height="43dp"
+            app:srcCompat="@drawable/buttonback"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="664dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

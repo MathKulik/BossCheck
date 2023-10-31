@@ -6,20 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class preHardCa extends AppCompatActivity {
+public class hardmode extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pre_hard_ca);
-
+        setContentView(R.layout.activity_hardmode);
     }
     public void volta( View view ) {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, preHardC.class);
         startActivity(intent);
-    }
-    public void hard( View view ) {
-        Intent intent = new Intent(this, hardmode.class);
-        startActivity(intent);
+        //TODO: ver como fazer um botão voltar para outro lugar dependendo da escolha feita da primeira vez
+
+        //TODO: aprender como fazer uma parte escrolavel
     }
 }

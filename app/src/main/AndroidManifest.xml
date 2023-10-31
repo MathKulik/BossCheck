@@ -13,6 +13,12 @@
         android:theme="@style/Theme.BossCheck"
         tools:targetApi="34">
         <activity
+            android:name=".hardmode"
+            android:exported="false" />
+        <activity
+            android:name=".hardC"
+            android:exported="false" />
+        <activity
             android:name=".preHardCa"
             android:exported="false" />
         <activity

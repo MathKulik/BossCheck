@@ -17,6 +17,16 @@
     <string name="txt_goblin">Exército Goblin</string>
     <string name="txt_anciao">Exército do Ancião</string>
     <string name="txt_tocha">O Deus da Tocha</string>
+    <string name="txt_geleia">Geleia Rainha</string>
+    <string name="txt_gemeos">Os Gêmeos</string>
+    <string name="txt_alfa">Esqueletron Alfa</string>
+    <string name="txt_planta">Plantera</string>
+    <string name="txt_luz">Imperatiz da Luz</string>
+    <string name="txt_golem">Golem</string>
+    <string name="txt_duque">Duque Peixe-Dragão</string>
+    <string name="txt_cultista">Cultista Lunático</string>
+    <string name="txt_lord">Senhor da Lua</string>
+    <string name="txt_destruidor">O Destruidor</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>
