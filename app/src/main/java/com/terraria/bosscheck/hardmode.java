@@ -17,7 +17,6 @@ public class hardmode extends AppCompatActivity {
         Intent intent = new Intent(this, preHardC.class);
         startActivity(intent);
         //TODO: ver como fazer um botão voltar para outro lugar dependendo da escolha feita da primeira vez
-
         //TODO: aprender como fazer uma parte escrolavel
     }
 }

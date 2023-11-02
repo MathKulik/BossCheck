@@ -9,79 +9,99 @@
 
     tools:context=".preHardCa">
 
+    <Button
+        android:id="@+id/btnCa3"
+        android:layout_width="65dp"
+        android:layout_height="54dp"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/vazio"
+        android:fontFamily="@font/terrariafont"
+        android:onClick="volta"
+        android:text=" "
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnCa2"
+        android:layout_width="65dp"
+        android:layout_height="54dp"
+
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/vazio"
+        android:fontFamily="@font/terrariafont"
+        android:onClick="hard"
+        android:text=" "
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView8"
         android:layout_width="56dp"
         android:layout_height="43dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
         android:rotationY="-180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/buttonback" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="56dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/buttonback" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="51dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_preh"
         android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="51dp" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="0dp"
         android:layout_height="82dp"
+        android:layout_marginBottom="275dp"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView9"
         app:srcCompat="@drawable/title" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginBottom="280dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_eventos"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox11"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox11" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_goblin"
         android:textColor="#FFFFFF"
-        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_lua"
         android:textColor="#FFFFFF"
@@ -92,58 +112,58 @@
         android:id="@+id/checkBox11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="246dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_anciao"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <CheckBox
         android:id="@+id/checkBox9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_tocha"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/checkBox11"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox11" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="99dp"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/textView10"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/title" />
 
     <CheckBox
         android:id="@+id/checkBox3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_slime"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/checkBox7"
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintStart_toStartOf="@+id/checkBox2"
-        app:layout_constraintTop_toTopOf="@+id/checkBox7" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_eye"
         android:textColor="#FFFFFF"
         app:buttonIconTint="#FFFFFF"
-        app:layout_constraintStart_toStartOf="@+id/checkBox6"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
 
     <CheckBox
@@ -153,7 +173,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
-        android:text="@string/txt_cerebro"
+        android:text="@string/txt_mundos"
         android:textColor="#FFFFFF"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
@@ -163,35 +183,34 @@
         android:id="@+id/checkBox8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="7dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_cervo"
         android:textColor="#FFFFFF"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/checkBox10"
         app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
 
     <CheckBox
         android:id="@+id/checkBox12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="200dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_parede"
         android:textColor="#FFFFFF"
         app:buttonIconTint="#FFFFFF"
-        app:layout_constraintStart_toEndOf="@+id/checkBox6"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <CheckBox
         android:id="@+id/checkBox7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_abelha"
         android:textColor="#FFFFFF"
@@ -204,7 +223,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_esqueleto"
         android:textColor="#FFFFFF"
@@ -216,34 +235,24 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_preh"
         android:textAlignment="center"
         android:textSize="30sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
-    <Button
-        android:id="@+id/btnCa"
-        android:layout_width="65dp"
-        android:layout_height="41dp"
-
-        android:background="@drawable/vazio"
-        android:fontFamily="@font/terrariafont"
-        android:onClick="hard"
-        android:text=" "
-        android:textAlignment="viewStart"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="330dp"
-        tools:layout_editor_absoluteY="664dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" " />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonback" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

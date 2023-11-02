@@ -28,4 +28,10 @@
     <string name="txt_cultista">Lunatic Cultist</string>
     <string name="txt_lord">Moon Lord</string>
     <string name="txt_destruidor">The Destroyer</string>
+    <string name="txt_eclipse">Solar Eclipse</string>
+    <string name="txt_pirata">Pirate Invasion</string>
+    <string name="txt_marte">Martian Madness</string>
+    <string name="txt_legiao">Frost Legion</string>
+    <string name="txt_abobora">Pumpkin Moon</string>
+    <string name="txt_congelada">Frost Moon</string>
 </resources>

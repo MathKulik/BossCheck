@@ -27,6 +27,12 @@
     <string name="txt_cultista">Cultista Lunático</string>
     <string name="txt_lord">Senhor da Lua</string>
     <string name="txt_destruidor">O Destruidor</string>
+    <string name="txt_eclipse">Eclipse Solar</string>
+    <string name="txt_pirata">Invasão Pirata</string>
+    <string name="txt_marte">Loucura de Marte</string>
+    <string name="txt_legiao">Legião Congelada</string>
+    <string name="txt_abobora">Lua de Abóbora</string>
+    <string name="txt_congelada">Lua Congelada</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>
