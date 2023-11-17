@@ -33,6 +33,7 @@
     <string name="txt_legiao">Legião Congelada</string>
     <string name="txt_abobora">Lua de Abóbora</string>
     <string name="txt_congelada">Lua Congelada</string>
+    <string name="txt_hard">Modo Difícil</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>

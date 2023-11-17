@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, preHardCa.class);
         startActivity(intent);
     }
+
 }
 

@@ -52,16 +52,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/buttonback" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/terrariafont"
-        android:text="@string/txt_preh"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="51dp" />
-
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="0dp"
@@ -80,6 +70,7 @@
         android:layout_marginBottom="280dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_eventos"
+        android:textColor="#272727"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -92,7 +83,8 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_goblin"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
@@ -104,7 +96,8 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_lua"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
@@ -116,7 +109,8 @@
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_anciao"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
@@ -128,7 +122,8 @@
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_tocha"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox11" />
 
@@ -149,7 +144,8 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_slime"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -161,7 +157,8 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_eye"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
@@ -173,8 +170,9 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/terrariafont"
-        android:text="@string/txt_mundos"
-        android:textColor="#FFFFFF"
+        android:text="@string/txt_cerebro"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
@@ -186,8 +184,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
-        android:text="@string/txt_cervo"
-        android:textColor="#FFFFFF"
+        android:text="@string/txt_esqueleto"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
@@ -200,7 +199,8 @@
         android:layout_marginTop="200dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_parede"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -213,7 +213,8 @@
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_abelha"
-        android:textColor="#FFFFFF"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -225,8 +226,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/terrariafont"
-        android:text="@string/txt_esqueleto"
-        android:textColor="#FFFFFF"
+        android:text="@string/txt_cervo"
+        android:textColor="#454545"
+        android:textSize="20sp"
         app:buttonIconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
@@ -240,6 +242,7 @@
         android:fontFamily="@font/terrariafont"
         android:text="@string/txt_preh"
         android:textAlignment="center"
+        android:textColor="#272727"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2" />

@@ -13,10 +13,13 @@ public class hardmode extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hardmode);
     }
-    public void volta( View view ) {
+    public void Corruption( View view ) {
         Intent intent = new Intent(this, preHardC.class);
         startActivity(intent);
-        //TODO: ver como fazer um botão voltar para outro lugar dependendo da escolha feita da primeira vez
-        //TODO: aprender como fazer uma parte escrolavel
+
+    }
+    public void Carmin( View view ) {
+        Intent intent = new Intent(this, preHardCa.class);
+        startActivity(intent);
     }
 }
