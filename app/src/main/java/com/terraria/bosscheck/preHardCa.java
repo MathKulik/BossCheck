@@ -22,4 +22,12 @@ public class preHardCa extends AppCompatActivity {
         Intent intent = new Intent(this, hardmode.class);
         startActivity(intent);
     }
+    public void slime(View view){
+        Intent intent = new Intent(this, slime.class);
+        startActivity(intent);
+    }
+//    public void sangue(View view){
+//        Intent intent = new Intent(this, sangueCa.class);
+//        startActivity(intent);
+//    }
 }

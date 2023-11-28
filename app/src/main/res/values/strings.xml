@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">bossCheck</string>
+    <string name="app_name" translatable="false">bossCheck</string>
     <string name="txt_corrupcao">Corrupção</string>
     <string name="txt_crimson">Carmin</string>
     <string name="txt_escolha">Selecione qual bioma maléfico você escolheu e vamos iniciar.</string>
@@ -34,6 +34,9 @@
     <string name="txt_abobora">Lua de Abóbora</string>
     <string name="txt_congelada">Lua Congelada</string>
     <string name="txt_hard">Modo Difícil</string>
+    <string name="txt_classico">Clássico</string>
+    <string name="txt_perito">Perito</string>
+    <string name="txt_mestre">Mestre</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>

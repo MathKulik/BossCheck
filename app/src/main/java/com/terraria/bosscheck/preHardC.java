@@ -17,8 +17,8 @@ public class preHardC extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-    public void hard( View view ) {
-        Intent intent = new Intent(this, hardmode.class);
-        startActivity(intent);
+//    public void hard( View view ) {
+//        Intent intent = new Intent(this, hardmode.class);
+//        startActivity(intent);
+
     }
-}
